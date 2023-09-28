@@ -1,0 +1,217 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+  /* background-color: lightyellow; */
+}
+
+.sidenav {
+  height: 91%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  align-items: center;
+  background-color: black;
+  overflow-x: hidden;
+  /* padding-top: 10px; */
+}
+.Cmp-title {
+  height: 70;
+  padding: 15px; 
+  background-color: white;
+  border-radius: 25px;
+  font-size: 20px;
+  letter-spacing: -0.1rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  font-family: 'Noto Sans', 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+.Cmp-title a, .Cmp-title a:hover {
+  text-decoration: none;
+  color: blue;
+  cursor: default;
+  padding: 0 0.5rem;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.sidenav h2{
+  padding: 6px 15px 8px 60px; 
+  /* padding-top : 0px; */
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border: 3px solid #ddd;
+  background-color:black;
+  border-radius: 25px ;
+  margin-right: 8px;
+  /* display: block; */
+
+}
+.sidenav h2:hover{
+  background-color:blue;
+}
+
+.sidenav a {
+  padding: 0px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover{
+  color: blue;
+}
+
+.main {
+  margin-left: 15%; /*Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 20px;
+  background-color: black;
+  margin-top: 0px;
+ 
+  
+}
+b1{
+  color: yellow;
+  font-size: 40px;
+}
+b2{
+  color: red;
+  font-size: 40px;
+}
+b3{
+  color: green;
+  font-size: 40px;
+}
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+i{
+  padding-right: 12px;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+h3{
+  margin: 0;
+  text-align : center; 
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#myInput {
+  /* background-image: url('/css/searchicon.png'); Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 22%; /* 25% of page-width */
+  font-size: 15px; /* Increase font-size */
+  padding:  10px 10px 10px 20px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  border-radius: 15px;
+  margin-left: 75%;
+}
+
+.Table{
+  overflow-y: auto;
+  height: 10px;
+}
+.TableHead thead th {
+  position: sticky;
+  top: 0;
+}
+table {
+  border-collapse: collapse;        
+  width: 85%;
+  margin-left: 15%;
+}
+th,
+td {
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid black;
+  background: white;
+}
+th {
+  color: white;
+  background: black;
+  border: 2px solid white;
+}
+/* table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 85%;
+border: 1px solid #ddd;
+margin-left: 15%;
+margin-top: 0px;
+color: black;
+
+} */
+
+/* th ,td {
+text-align: center;
+padding: 8px;
+border: 1px solid #ddd;
+
+}
+
+tr:nth-child(even){background-color: #f2f2f2} */
+
+
+
+
+/* footer ::part */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.s-foot-sm {
+  display: block;
+  background-color:black;
+  padding-top: 6px;
+}
+
+.s-foot-sm ul {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.s-foot-sm li {
+  min-height: 48px;
+  min-width: 48px;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.s-foot-sm li a {
+  font-size: 2.0rem;
+   padding: 6px; 
+  color: white;
+  padding-left: 20px;
+}
+
+.s-foot-sm li:hover {
+  color: white;
+  background-color:blue;
+  border-radius: 15px;
+}
